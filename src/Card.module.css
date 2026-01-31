@@ -1,0 +1,74 @@
+
+.fruitCard {
+  border: 1px solid #e0e0e0;
+  width: 280px;
+  height: auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+}
+
+.fruitCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.status {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonAdd {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.buttonAdd:hover {
+  background-color: #43a047;
+}
+
+.buttonRemove {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.buttonRemove:hover {
+  background-color: #e53935;
+}
